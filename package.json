@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "css-loader": "^0.28.11",
     "echarts": "^4.2.0-rc.2",
     "element-ui": "^2.3.2",
     "http-proxy-middleware": "^0.18.0",
