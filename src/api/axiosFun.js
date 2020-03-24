@@ -5,6 +5,7 @@ const loginreq = (method, url, params) => {
     return axios({
         method: method,
         url: url,
+        baseURL:'http://66.42.39.36/oss',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
         },
@@ -30,6 +31,7 @@ const req = (method, url, params) => {
     return axios({
         method: method,
         url: url,
+        baseURL:'http://66.42.39.36/oss',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
             token: localStorage.getItem('logintoken')

@@ -10,7 +10,6 @@ import router from './router';
 // 引入状态管理
 import store from './vuex/store';
 // 引入icon
-// import './assets/icon/iconfont.css'
 import './assets/icon/iconfont.css'
 // 
 
